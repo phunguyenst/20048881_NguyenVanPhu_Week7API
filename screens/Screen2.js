@@ -28,7 +28,7 @@ export default function Screen2({navigation, route}) {
         <View>
         <TouchableOpacity
           onPress={()=>{
-            navigation.navigate("screen1")
+            navigation.goBack()
           }}
         ><AntDesign name="arrowleft" size={24} color="black" /></TouchableOpacity>
           
